@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NoticeForm</class>
+ <widget class="QWidget" name="NoticeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>405</width>
+    <height>282</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Team 4067 - 2013 FRC Software Installer - NOTICE</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,0">
+   <item>
+    <widget class="QLabel" name="noticeLbl">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;2013 FRC Software Installer by Team 4067 - SOFTWARE USE NOTICE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;You may only use this software IF AND ONLY IF you are an active teacher, mentor, or participant of the River Hill Robotics Team (The Incredible Hawk, FRC Team 4067). If not, you can NOT use this software and must exit this installer now. Even if you are an active participant of FIRST Robotics™, the licensing of the software distributed by this installer permits only one team to download, install, and use. If you wish to use this software for your team, you must recreate this application and the appropriate archive(s) for your team.&lt;br/&gt;&lt;br/&gt;If you have left the team and/or have terminated participation in FIRST Robotics via the River Hill Robotics Team, you can NOT use this software and must exit this installer now.&lt;/p&gt;&lt;p&gt;This installer is bound to the licensing agreements of FIRST Robotics™, National Instruments™, and any other software licensing agreements that are a part of the FRC competiton software.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="acceptBtn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>&amp;Accept (10)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="declineExitBtn">
+       <property name="text">
+        <string>Decline and E&amp;xit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
