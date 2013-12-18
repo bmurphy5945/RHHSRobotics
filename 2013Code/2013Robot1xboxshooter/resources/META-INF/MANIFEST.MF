@@ -1,0 +1,6 @@
+MIDlet-Name: 2013Robot1xboxshooter
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: FIRST
+MIDlet-1: Robot2013xbox, , edu.wpi.first.wpilibj.templates.Robot2013xbox
+MicroEdition-Profile: IMP-1.0
+MicroEdition-Configuration: CLDC-1.1

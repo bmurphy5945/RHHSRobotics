@@ -1,0 +1,6 @@
+MIDlet-Name: Steffen's Robot
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: FIRST
+MIDlet-1: Steffens_Robot, , edu.wpi.first.wpilibj.templates.Steffens_Robot
+MicroEdition-Profile: IMP-1.0
+MicroEdition-Configuration: CLDC-1.1

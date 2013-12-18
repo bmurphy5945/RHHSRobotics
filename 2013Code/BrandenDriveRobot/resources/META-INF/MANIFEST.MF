@@ -1,0 +1,6 @@
+MIDlet-Name: BrandenDriveRobot
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: FIRST
+MIDlet-1: DriveRobot, , edu.wpi.first.wpilibj.templates.DriveRobot
+MicroEdition-Profile: IMP-1.0
+MicroEdition-Configuration: CLDC-1.1

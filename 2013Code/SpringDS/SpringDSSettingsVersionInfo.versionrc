@@ -1,0 +1,28 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x0,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        '040904b0',
+        [StringStruct('FileDescription', 'SpringDS Settings'),
+        StringStruct('OriginalFilename', 'SpringDSSettings.exe'),
+        StringStruct('CompanyName', 'River Hill Robotics (Team #4067)'),
+        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('LegalCopyright', '\251 Copyright 2012 River Hill Robotics Team (Team #4067)'),
+        StringStruct('ProductName', 'SpringDS'),
+        StringStruct('ProductVersion', '1.0.0.0'),
+        StringStruct('InternalName', 'SpringDS')])
+      ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
