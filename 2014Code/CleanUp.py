@@ -14,7 +14,6 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
 
 import os
 import shutil
@@ -23,7 +22,7 @@ def listDir(directory):
         return [ name for name in os.listdir(directory) if os.path.isdir(os.path.join(directory, name)) ]
     else:
         return []
-
+        
 for srcDir in listDir("."):
     if os.path.isdir(os.path.join(srcDir, "nbproject")):
         # It's a Netbeans project, so let's clean it up!
